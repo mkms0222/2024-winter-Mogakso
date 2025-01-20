@@ -6,38 +6,65 @@
         <title>Test Web</title>
     </head>
     <body>
-        <h1>아주대학교 2024년 동계모각소</h1>
-        <h2>h2 tag</h2>
-        <h3>h3 tag</h3>
-        <h4>h4 tag</h4>
-        <h5>h5 tag</h5>
-        <h6>h6 tag</h6>
-
-        <p>
-            p는 문단을 뜻함
-            줄바꿈을 해도 그대로 되나? 아니면 다른 코드를 붙여야하나 그걸 모르겠네
-            해보니까 줄바꿈이이 따로 있네 하나씩 천천히 해봅시다<br/>
-            <b>b는 강조</b> 강조하고싶은 곳에 열고 닫으면 됨 쉬우니까 다음
-            br은 줄바꿈 드디어 나왔구만<br/>
-            꺽새 안에 br/로 표시해서 줄바꿈 해주면 됨<br/>
-            li는 리스트, 리스트에는 ordered와 unordered가 있다<br/>
-            <ol>
-                <li>구글</li>
-                <li>네이버</li>
-                <li>깃허브</li>
-            </ol>
+        <h1>아주대학교 동계모각소</h1>
+        <img src="https://news.samsungdisplay.com/wp-content/uploads/2018/08/8.jpg" alt="beach" />
+        <p> 이미지 첨부 방범<br/>
+            <img src="aaa" alt="aaa">
             <ul>
-                <li>구글</li>
-                <li>네이버</li>
-                <li>깃허브</li>
+                <li>src : 이미지 경로 지정</li>
+                <li>alt : 이미지에 대한 설명, 이미지를 표시할 수 없는 경우 보여지는 값</li>
             </ul>
-            마지막으로 링크 첨부는 a로 한다<br/>
-            href속성에 이동경로를 작성해야함<br/>
-            https://developer.mozilla.org/ko/docs/Web/HTML/Element/a -> 속성 참고
         </p>
-        <ul>
-            <li><a href="https://www.google.com/">구글</a></li>
-            <li><a href="https://www.naver.com/">네이버</a></li>
-        </ul>
+        <!__<video src="./20160505_154647.mp4" autoplay controls />
+        <p>
+            비디오를 삽입했는데 잘 되려나 궁금핑<br/>
+            사진이랑 똑같이 하는데 뒤에 `autoplay controls`를 붙여서 자동 재생 시키는듯?<br/>
+            사진이나 동영상 첨부 방식은 http에서 주소를 복사하거나 내 디렉토리에서 경로 설정하는 방법 두 가지를 쓸 수 있을 것 같다<br/>
+            <b>특성</b><br/>
+            `autoplay` : 비디오 자동재생, 비활성화 시키려면 ="false"추가해도 안되고 완전히 제거해야함<br/>
+            `controls` : 소리 조정, 동영상 탐색, 일시 정지 등의 컨트롤러 제공<br/>
+        </p>
+        <!__<audio controls src="" />
+        <table>
+            <caption>
+                달력
+            </caption>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>월요일 </th>
+                    <th>화요일 </th>
+                    <th>수요일 </th>
+                    <th>목요일 </th>
+                    <th>금요일 </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1행</td>
+                    <td>td1</td>
+                    <td>td2</td>
+                    <td>td3</td>
+                    <td>td4</td>
+                    <td>td5</td>                    
+                </tr>
+                <tr>
+                    <td>2행</td>
+                    <td>td1</td>
+                    <td>td2</td>
+                    <td>td3</td>
+                    <td>td4</td>
+                    <td>td5</td>                    
+                </tr>
+                <tr>
+                    <td>3행</td>
+                    <td>td1</td>
+                    <td>td2</td>
+                    <td>td3</td>
+                    <td>td4</td>
+                    <td>td5</td>                     
+                </tr>
+            </tbody>
+        </table>
     </body>
-    </html>
+</html>
