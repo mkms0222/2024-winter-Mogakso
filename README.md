@@ -12,7 +12,7 @@
 ---
 ### 01-20
 HTML/CSS 기초 끝내기
-#### 태그
+
 **기초**
 - `<p>` : 문단
 - `<b>` : 굵게
@@ -21,16 +21,19 @@ HTML/CSS 기초 끝내기
     - `<oi>` : 정렬된 리스트
     - `<ul>` : 정렬되지 않은 리스트
 - `<a>` : 링크
+
 **이미지, 동영상, 오디오**
 - 이미지: `<img src="경로 or 주소" alt="설명">`
 - 동영상: `<video src="경로 or 주소" 속성>` 
 - 오디오: `<audio src="경로 or 주소">`  
+
 **표**
 - `<table>`:테이블 만들기 
 - `<thead>, <tbody>`:테이블 헤더, 바디 만들기 (thead는 선택)
 - `<tr>`: 테이블 행 만들기
 - `<th>, <td>`:테이블 열 만들기(th는 열의 헤더, td는 열의 데이터)
 - `<caption>`:표의 제목
+
 **폼 관련 태그**
 - button
 ```
@@ -99,6 +102,7 @@ HTML/CSS 기초 끝내기
     <button>제출</button>
 </form>
 ```
+
 **div와 span**
 차이점
 - `<div>`:브라우저의 한 줄 모두 차지 (블록 컨테이너)
@@ -116,6 +120,7 @@ HTML/CSS 기초 끝내기
     </div>
 </body>
 ```
+
 **시멘틱 태그**
 <div>
     <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FIA3PW%2Fbtrv4KUR4Pu%2Fxhi1IJCC6lrXflJlkGi1y0%2Fimg.png" width="600">
