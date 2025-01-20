@@ -26,11 +26,11 @@ HTML/CSS 기초 끝내기
 - 동영상: `<video src="경로 or 주소" 속성>` 
 - 오디오: `<audio src="경로 or 주소">`  
 **표**
-`<table>`:테이블 만들기 
-`<thead>, <tbody>`:테이블 헤더, 바디 만들기 (thead는 선택)
-`<tr>`: 테이블 행 만들기
-`<th>, <td>`:테이블 열 만들기(th는 열의 헤더, td는 열의 데이터)
-`<caption>`:표의 제목
+- `<table>`:테이블 만들기 
+- `<thead>, <tbody>`:테이블 헤더, 바디 만들기 (thead는 선택)
+- `<tr>`: 테이블 행 만들기
+- `<th>, <td>`:테이블 열 만들기(th는 열의 헤더, td는 열의 데이터)
+- `<caption>`:표의 제목
 **폼 관련 태그**
 - button
 ```
@@ -118,8 +118,9 @@ HTML/CSS 기초 끝내기
 ```
 **시멘틱 태그**
 <div>
-    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FIA3PW%2Fbtrv4KUR4Pu%2Fxhi1IJCC6lrXflJlkGi1y0%2Fimg.png" width="300">
+    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FIA3PW%2Fbtrv4KUR4Pu%2Fxhi1IJCC6lrXflJlkGi1y0%2Fimg.png" width="600">
 </div>
+
 - header : 사이트의 로고, 제목 등
 - navigation : 사이트의 메뉴들 위치, 대체로 헤더 안에 있지만 다른 곳에 있어도 됨
 - main : 본문
