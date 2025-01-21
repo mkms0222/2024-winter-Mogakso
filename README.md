@@ -135,11 +135,7 @@ HTML/CSS 기초 끝내기
 - footer : 저작권 정보, 연락처 등 위치
 
 ## 01-21
-### HTML의 기본 구조
-
-<div>
-    <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/e07275ce-0724-496e-8178-adde224695a9/f0a480e8-5412-45bd-85c6-9af04da7c9e1/image.png" width="600">
-</div>
+개발자의품격 - html, css 입문 1시간으로 끝내기 시청
 
 ### CSS
 
