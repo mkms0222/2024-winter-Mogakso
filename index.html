@@ -1,70 +1,49 @@
 <!DOCTYPE html>
-<html lang="ko">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Test Web</title>
-    </head>
-    <body>
-        <h1>아주대학교 동계모각소</h1>
-        <img src="https://news.samsungdisplay.com/wp-content/uploads/2018/08/8.jpg" alt="beach" />
-        <p> 이미지 첨부 방범<br/>
-            <img src="aaa" alt="aaa">
-            <ul>
-                <li>src : 이미지 경로 지정</li>
-                <li>alt : 이미지에 대한 설명, 이미지를 표시할 수 없는 경우 보여지는 값</li>
-            </ul>
-        </p>
-        <!__<video src="./20160505_154647.mp4" autoplay controls />
-        <p>
-            비디오를 삽입했는데 잘 되려나 궁금핑<br/>
-            사진이랑 똑같이 하는데 뒤에 `autoplay controls`를 붙여서 자동 재생 시키는듯?<br/>
-            사진이나 동영상 첨부 방식은 http에서 주소를 복사하거나 내 디렉토리에서 경로 설정하는 방법 두 가지를 쓸 수 있을 것 같다<br/>
-            <b>특성</b><br/>
-            `autoplay` : 비디오 자동재생, 비활성화 시키려면 ="false"추가해도 안되고 완전히 제거해야함<br/>
-            `controls` : 소리 조정, 동영상 탐색, 일시 정지 등의 컨트롤러 제공<br/>
-        </p>
-        <!__<audio controls src="" />
-        <table>
-            <caption>
-                달력
-            </caption>
-            <thead>
-                <tr>
-                    <th> </th>
-                    <th>월요일 </th>
-                    <th>화요일 </th>
-                    <th>수요일 </th>
-                    <th>목요일 </th>
-                    <th>금요일 </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1행</td>
-                    <td>td1</td>
-                    <td>td2</td>
-                    <td>td3</td>
-                    <td>td4</td>
-                    <td>td5</td>                    
-                </tr>
-                <tr>
-                    <td>2행</td>
-                    <td>td1</td>
-                    <td>td2</td>
-                    <td>td3</td>
-                    <td>td4</td>
-                    <td>td5</td>                    
-                </tr>
-                <tr>
-                    <td>3행</td>
-                    <td>td1</td>
-                    <td>td2</td>
-                    <td>td3</td>
-                    <td>td4</td>
-                    <td>td5</td>                     
-                </tr>
-            </tbody>
-        </table>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>아주대학교 동계 모각소</h1>
+    <p class="color-primary font-50px">소프트웨어학과</p>
+    <p style="color:coral">202322051</p>
+    <p id="id1" style="color:blueviolet">곽민서</p>
+
+    <input type="text" /> 
+    <input type="number" />
+    <select class="select-style1">
+        <option>Seoul</option>
+        <option>Suwon</option>
+        <option>Jeju</option>
+    </select>
+
+    <table>
+        <thead class="tb-head">
+            <tr>
+                <td>이름</td>
+                <td>지역</td>
+                <td>전화번호</td>
+            </tr>
+        </thead>
+        <tbody class="tb-body">
+            <tr>
+                <td>홍길동</td>
+                <td>서울</td>
+                <td>010-1111-1111</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="https://www.naver.com" target="_blank">네이버</a>
+
+    <br><button type="button" onclick="javascript:alert('click button!!')">button</button>
+    
+    <br><br>
+    <img width="500px" src="https://blog.kakaocdn.net/dn/bezjux/btqCX8fuOPX/6uq138en4osoKRq9rtbEG0/img.jpg">
+</body>
+
 </html>
