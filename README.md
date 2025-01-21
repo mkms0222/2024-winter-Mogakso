@@ -7,12 +7,13 @@
 - React 환경설정 완벽히 하고 기초 끝내기
 - JS도 기초정도는 할 수 있으면 좋겠다..
 ---
-### 01-16
+## 01-16
 기초적인 웹개발 환경 설정
 ---
-### 01-20
+## 01-20
 HTML/CSS 기초 끝내기
 
+### 태그
 **기초**
 - `<p>` : 문단
 - `<b>` : 굵게
@@ -36,7 +37,7 @@ HTML/CSS 기초 끝내기
 
 **폼 관련 태그**
 - button
-```
+```html
 <body>
     <button name="btn" type="button">버튼</button>
 </body>
@@ -45,7 +46,7 @@ HTML/CSS 기초 끝내기
     - 속성
     type: 타입에 따라 모양새가 다름. 아래 참고
         - type별 input
-        ```
+        ```html
           <body>
             <input type="text" name="text" required/>
             <input type="password" name="password" required/>
@@ -64,7 +65,7 @@ HTML/CSS 기초 끝내기
 - select option
     - `<select>`:옵션 메뉴 제공
     - `<option>`:항목 제공
-```
+```html
 <body>
     <select name="과일">
     <option value="">과일을 선택하세요</option>
@@ -76,7 +77,7 @@ HTML/CSS 기초 끝내기
 </body>
 ```
 - label(항목 설명)
-```
+```html
 <body>
     <label>이름을 알려주세요
         <input type="text" name="user_name" />
@@ -95,7 +96,7 @@ HTML/CSS 기초 끝내기
     속성
     - `action` : 데이터를 보낼 URL
     - `method` : HTTP method
-```
+```html
 <form action="" method="post">
     <input type="text" placeholder="아이디를 입력하세요" />
     <input type="password" placeholder="비밀번호를 입력하세요" />
@@ -107,7 +108,7 @@ HTML/CSS 기초 끝내기
 차이점
 - `<div>`:브라우저의 한 줄 모두 차지 (블록 컨테이너)
 - `<span>`:컨테이너의 크기만큼만 차지 (인라인 컨테이너)
-```
+```html
 <body>
     <h1>레이아웃 설정하기</h1>
     <div>
@@ -132,3 +133,5 @@ HTML/CSS 기초 끝내기
 - article : 기사에서 하나의 글처럼 독립적으로 구성할 수 있는 요소
 - aside : 사이드바, 주로 광고 위치
 - footer : 저작권 정보, 연락처 등 위치
+
+### html/css [개발자의품격]
