@@ -137,7 +137,9 @@ HTML/CSS 기초 끝내기
 ## 01-21
 ### HTML의 기본 구조
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e07275ce-0724-496e-8178-adde224695a9/f0a480e8-5412-45bd-85c6-9af04da7c9e1/image.png)
+<div>
+    <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/e07275ce-0724-496e-8178-adde224695a9/f0a480e8-5412-45bd-85c6-9af04da7c9e1/image.png" width="600">
+</div>
 
 ### CSS
 
